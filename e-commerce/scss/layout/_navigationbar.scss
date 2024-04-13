@@ -1,0 +1,73 @@
+.navbar-container{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+}
+
+
+.conatiner-left-side{
+
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+}
+
+.navigation-link{
+    
+    display: flex;
+    font-family: "Space Grotesk";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    gap: 40px;
+    a{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--neutral-07100, #141718);
+    }
+
+}
+
+.navbar-icons{
+    display: flex;
+    gap: 16px;
+    .left-side{
+        display: flex;
+        gap: 16px;
+    }
+    .right-side{
+
+        display: flex;
+        gap: 5px;
+    }
+}
+
+.number-ellipse{
+    height: 20px;
+    width: 20px;
+
+
+    span{
+       
+        height: 20px;
+        width: 20px;
+        // border-radius: 50%;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        color: white;
+        background-color:black;
+        
+    }
+   
+}
+
